@@ -1,7 +1,3 @@
-body {
-	color:black;
-}
-
 /*#phoneNumber {
 	position: absolute;
 	z-index: 
@@ -9,3 +5,11 @@ body {
 	margin-right: -30px;
 	white-space: nowrap;
 }*/
+
+.navbar {
+	background-color: white;
+}
+
+hr {
+	border: 5px solid #3A7262;
+}
