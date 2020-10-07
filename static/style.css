@@ -7,9 +7,53 @@
 }*/
 
 .navbar {
-	background-color: white;
+	background-color: white !important;
 }
 
 hr {
-	border: 5px solid #3A7262;
+	margin-top: 1px;
+	margin-left: 23px;
+	margin-right: 23px;
+	border: 0.5px solid #3A7262;
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    color: #3A7262;
+    border: 0.5px solid #3A7262;
+}
+
+.navbar-nav { 
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.nav-item {
+	padding-left: 10px;
+}
+
+/* Navbar Collapse*/
+@media (max-width:991px) {
+	.navbar-toggler {
+		width:auto;
+	}
+}
+
+@media (max-width:786px) {
+	.navbar-toggler {
+		width:100%;
+	}
+	.navbar-nav {
+		padding-bottom:10px;
+	}
+	#navbarNav {
+		padding-top:10px;
+	}
+}
+
+/* displays too small to fit the big name*/
+@media (max-width:448px) {
+	#big-name {
+		width:100%;
+		height:auto;
+	}
 }
