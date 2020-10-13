@@ -5,8 +5,9 @@ app = Flask(__name__)
 app.register_blueprint(second, url_prefix="")
 
 @app.route("/")
+@app.route("/projects/")
 def home():
-	return render_template("index.html")
+	return render_template("projects.html")
 
 if __name__ == "__main__":
 	app.run(debug=True)

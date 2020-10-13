@@ -6,8 +6,20 @@
 	white-space: nowrap;
 }*/
 
+body {
+	background-color: lightgray;
+}
+
 .navbar {
 	background-color: white !important;
+}
+
+#content-block {
+	margin: 23px;
+}
+
+#body-container {
+	background-color: white;
 }
 
 hr {
@@ -29,6 +41,11 @@ hr {
 }
 .nav-item {
 	padding-left: 10px;
+}
+
+h2 {
+	font-weight: bold;
+	color: gray;
 }
 
 /* Navbar Collapse*/
