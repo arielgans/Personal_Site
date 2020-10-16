@@ -1,33 +1,43 @@
 {% extends "base.html" %}
 {% block title %}Home Page{% endblock %}
 {% block content %}
-<h2>
+<h2 id="projects">
 	Projects
 </h2>
 <div class="card-deck">
-  <div class="card">
+  <div class="card raise">
     <img src="{{ url_for('static', filename='images/placeholder.jpg') }}" class="card-img-top" alt="placeholder">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Personal Website</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Flask · Python · Bootstrap</h6>
+      <p class="card-text">A personal website to complement a resume and host web-based projects, such as the Auto-Resume. Built on Flask and formatted to match resume with Bootstrap.</p>
+      <p class="card-text"><small class="text-muted">Oct 2020</small></p>
     </div>
   </div>
-  <div class="card">
+  <div class="card raise">
     <img src="{{ url_for('static', filename='images/placeholder.jpg') }}" class="card-img-top" alt="placeholder">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Auto-Resume</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Python · Google Sheets API · Bootstrap</h6>
+      <p class="card-text">An adaptive resume whose elements can be manually selected or automatically selected based on a job description. Elements are stored and loaded through Google Sheets API.</p>
+      <p class="card-text"><small class="text-muted">(in-progress)</small></p>
     </div>
   </div>
-  <div class="card">
+  <div class="card raise">
     <img src="{{ url_for('static', filename='images/placeholder.jpg') }}" class="card-img-top" alt="placeholder">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <h5 class="card-title">Arduino Instrument</h5>
+      <h6 class="card-subtitle mb-2 text-muted">Arduino</h6>
+      <p class="card-text">Beep Boop.</p>
+      <p class="card-text"><small class="text-muted">(in-progress)</small></p>
     </div>
   </div>
 </div>
+
+<h2 id="about">
+	About
+</h2>
+<p>
+	About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About About 
+</p>
 {% endblock %}

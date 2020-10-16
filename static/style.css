@@ -7,11 +7,17 @@
 }*/
 
 body {
-	background-color: lightgray;
+	background-color: #3A7262;
 }
 
 .navbar {
 	background-color: white !important;
+}
+
+/* Sticky navbar! */
+.sticky {
+  position: fixed;
+  top: 0;
 }
 
 #content-block {
@@ -20,6 +26,7 @@ body {
 
 #body-container {
 	background-color: white;
+	margin-top: 100px;
 }
 
 hr {
@@ -46,6 +53,17 @@ hr {
 h2 {
 	font-weight: bold;
 	color: gray;
+	margin-top: 23px;
+	padding-bottom: 16px;
+}
+
+.raise {
+	transition: box-shadow .3s, transform .3s;
+}
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  transform: translateY(-0.25em);
 }
 
 /* Navbar Collapse*/
